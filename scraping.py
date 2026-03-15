@@ -10,5 +10,3 @@ html = response.text
 
 soup = BeautifulSoup(html, "html.parser")
 title = soup.find("h1").text
-
-print("テスト")
